@@ -232,7 +232,7 @@ print('Zip File Created')
 #uploade to Google Drive
 
 #Cleaning and removing Temp files and folders
-#removefolder = pathlib.Path(directory)
-#removefolder.rmdir()
+removefolder = pathlib.Path(directory)
+removefolder.rmdir()
 #removefile = pathlib.Path(str(directory)+'-archive.zip')
 #removefile.unlink()
